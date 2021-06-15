@@ -1,0 +1,47 @@
+{
+    "background_color": "#1abc9c",
+    "theme_color": "#1abc9c",
+    "name": "동중 시간표",
+    "short_name": "동중 시간표",
+    "description": "더 편안한 온라인 수업",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+     {
+      "src": "\/apple-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image\/png"
+     },
+     {
+      "src": "\/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image\/png"
+     },
+     {
+      "src": "\/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image\/png"
+     },
+     {
+       "src": "\/icon160.png",
+       "sizes": "160x160",
+       "type": "image\/png"
+      },
+     {
+      "src": "\/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image\/png"
+     },
+     {
+      "src": "\/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+     },
+     {
+      "src": "\/maskable_icon_x1.png",
+      "sizes": "1024x1024",
+      "type": "image\/png",
+      "purpose": "maskable"
+     }
+    ]
+}
