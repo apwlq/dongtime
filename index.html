@@ -81,9 +81,9 @@
             };
             function openInNewTab(url) {
                 if(url !== ''){
-                    //var win = window.open(url, '_sub');
-                    //win2.focus();
-			window.location.href == url;
+                    var win = window.open(url, '_sub');
+                    win2.focus();
+			//window.location.href == url;
                 }
             };
         </script>
@@ -95,7 +95,7 @@
                     if(isMobile()) {
                         window.location.href = `zoomus://zoom.us/join?confno=${zoomID}`;
                     } else {
-                        openInNewTab(`https://zoom.us/j/${zoomID}`);
+                        window.location.href = `https://zoom.us/j/${zoomID}`;
                     }
                 }
             }
