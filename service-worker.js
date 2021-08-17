@@ -1,15 +1,15 @@
 //service-worker.js
-const CACHE_NAME = 'cache-v8';
+const CACHE_NAME = 'cache-v10';
 
 const FILES_TO_CACHE = [
   "./index.html",
   "./styles.css",
   "./scripts.js",
-  "./image/band1.png",
-  "./image/band2.png",
-  "./image/band3.png",
-  "./image/band4.png",
-  "./image/band5.png",
+  //"./image/band1.png",
+  //"./image/band2.png",
+  //"./image/band3.png",
+  //"./image/band4.png",
+  //"./image/band5.png",
   "./image/default.png",
   "./image/dmslogo.png",
   "./image/favicon.ico",
